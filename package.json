@@ -1,6 +1,7 @@
 {
   "name": "projec_hexlet_n1",
   "version": "1.0.0",
+  "type": "module",
   "description": "[![Actions Status](https://github.com/burchik017/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/burchik017/frontend-project-lvl1/actions)",
   "main": "index.js",
   "bin": {
@@ -15,9 +16,11 @@
   },
   "author": "Maksim",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/burchik017/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/burchik017/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/burchik017/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
