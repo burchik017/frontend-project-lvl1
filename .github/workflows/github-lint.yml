@@ -26,4 +26,3 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: make lint
-      - run: echo "🍏 This job's status is ${{ job.status }}."
