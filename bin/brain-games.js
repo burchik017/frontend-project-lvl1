@@ -3,3 +3,4 @@
 import { answer } from '../src/cli.js';
 
 answer();
+
