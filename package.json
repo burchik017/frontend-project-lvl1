@@ -1,9 +1,9 @@
 {
-  "name": "projec_hexlet_n1",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/burchik017/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/burchik017/frontend-project-lvl1/actions)",
-  "main": "index.js",
+  "description": "front-end project lvl-1",
+  "main": "src/index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -19,7 +19,12 @@
     "type": "git",
     "url": "git+https://github.com/burchik017/frontend-project-lvl1.git"
   },
-  "author": "Maksim",
+  "keywords": [
+    "hexlet",
+    "frontend",
+    "lvl1"
+  ],
+  "author": "Maksim Borisov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/burchik017/frontend-project-lvl1/issues"
