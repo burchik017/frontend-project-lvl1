@@ -37,4 +37,4 @@ export const checkAnswer = (gamerName, gamerAnswer, correctAnswer) => {
   console.log(`Let's try again, ${gamerName}!`);
 
   return false;
-}
+};

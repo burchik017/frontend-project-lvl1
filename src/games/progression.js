@@ -1,15 +1,14 @@
-import {getRandomNum,} from '../lib.js'
+import { getRandomNum } from '../lib.js';
 
 export const progression = () => {
-    let firstNum = getRandomNum(90);
+  let firstNum = getRandomNum(90);
   const randomNum = getRandomNum(9);
-  let arrNum = [firstNum];
-  for (let i = 0; i < 9; i++) {
+  const arrNum = [firstNum];
+  for (let i = 0; i < 9; i += 1) {
     firstNum += randomNum;
     arrNum.push(firstNum);
   }
-  const correctAnswer = arrNum[randomNum]
-  arrNum[randomNum] = " ... ";
-
+  const correctAnswer = arrNum[randomNum];
+  arrNum[randomNum] = ' ... ';
   return [`${arrNum}`, correctAnswer];
 };

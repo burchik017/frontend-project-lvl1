@@ -6,10 +6,9 @@ const getName = (name = 'Gamer') => {
     gamerName = gamerName[0].toUpperCase() + gamerName.slice(1);
     console.log(`Hi ${gamerName}!`);
     return gamerName;
-  } else {
-    console.log(`Hello, I will call you ${name}.`);
-    return name;
   }
+  console.log(`Hello, I will call you ${name}.`);
+  return name;
 };
 
 export default getName;

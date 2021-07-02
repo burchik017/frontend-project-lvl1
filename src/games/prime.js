@@ -1,6 +1,6 @@
 import { getRandomNum } from '../lib.js';
 
- const isPrime = (num) => {
+const isPrime = (num) => {
   if (num < 2) {
     return false;
   }
