@@ -1,4 +1,5 @@
-"name": "@hexlet/code",
+{
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
   "description": "front-end project lvl-1",
