@@ -1,9 +1,8 @@
-{
-  "name": "@hexlet/code",
-  "version": "1.5.2",
+"name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
   "description": "front-end project lvl-1",
   "main": "src/index.js",
-  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -17,26 +16,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jPee2k/frontend-project-lvl1.git"
+    "url": "git+https://github.com/burchik017/frontend-project-lvl1.git"
   },
   "keywords": [
     "hexlet",
     "frontend",
     "lvl1"
   ],
-  "author": "jPee",
+  "author": "Maksim Borisov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jPee2k/frontend-project-lvl1/issues"
+    "url": "https://github.com/burchik017/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/jPee2k/frontend-project-lvl1#readme",
-  "devDependencies": {
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.2"
-  },
+  "homepage": "https://github.com/burchik017/frontend-project-lvl1#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
   }
 }
