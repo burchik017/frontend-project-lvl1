@@ -19,10 +19,6 @@ export const getRandomMultiSign = (max = 3) => {
 export const getAnswer = () => {
   let gamerAnswer = readlineSync.question('Your answer: ');
 
-  if (isNumber(gamerAnswer)) {
-    gamerAnswer = Number(gamerAnswer);
-  }
-
   return gamerAnswer;
 };
 
