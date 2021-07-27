@@ -1,4 +1,5 @@
-import { even } from '../src/games/even.js';
+#!/usr/bin/env node
+import game from '../src/games/even.js';
 import runGame from '../src/index.js';
 
-runGame(even, 'Answer "yes" if the number is even, otherwise answer "no".');
+runGame(game, 'Answer "yes" if the number is even, otherwise answer "no".');

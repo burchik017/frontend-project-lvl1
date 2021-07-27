@@ -1,4 +1,5 @@
-import { progression } from '../src/games/progression.js';
+#!/usr/bin/env node
+import game from '../src/games/progression.js';
 import runGame from '../src/index.js';
 
-runGame(progression, 'What is the result of the expression?');
+runGame(game, 'What number is missing in the progression?');

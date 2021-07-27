@@ -14,9 +14,11 @@ const isPrime = (num) => {
   return true;
 };
 
-export const prime = () => {
+const game = () => {
   const number = getRandomNum();
   const correctAnswer = isPrime(number) ? 'yes' : 'no';
 
   return [number, correctAnswer];
 };
+
+export default game;

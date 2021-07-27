@@ -1,14 +1,29 @@
 import { getRandomNum } from '../lib.js';
 
-export const progression = () => {
-  let firstNum = getRandomNum(90);
-  const randomNum = getRandomNum(9);
-  const arrNum = [firstNum];
-  for (let i = 0; i < 9; i += 1) {
-    firstNum += randomNum;
-    arrNum.push(firstNum);
+const game = (randomLength = false, randomIncrement = true) => {
+  let length = 10;
+  let increment = 2;
+
+  if (randomLength) {
+    const minLength = 5;
+    length = getRandomNum(5) + minLength;
   }
-  const correctAnswer = arrNum[randomNum];
-  arrNum[randomNum] = ' ... ';
-  return [`${arrNum}`, correctAnswer];
+
+  if (randomIncrement) {
+    const minIncrement = 1;
+    increment = getRandomNum(9) + minIncrement;
+  }
+
+  const progression = [increment];
+  for (let i = 1; i <= length; i += 1) {
+    progression[i] = progression[i - 1] + increment;
+  }
+
+  const randomPosition = getRandomNum(length);
+  const answer = progression[randomPosition];
+  progression[randomPosition] = '..';
+
+  return [progression.join(' '), answer];
 };
+
+export default game;
